@@ -125,8 +125,9 @@
                     <input type="number" name="edad" id="edad" min="1" max="111" step="1" required>
                 </p>
                 <p>
-                    <label for="edad2">Indica la edad</label>
-                    <input type="range" name="edad2" id="edad2" min="1" max="111" step="1">
+                    <label for="edad2">Indica la edad (barra de desplazamiento)</label>
+                    <input type="range" name="edad2" id="edad2" min="1" max="111" step="1" oninput="document.getElementById('etiquetaRango').innerHTML = this.value;">
+			<em id="etiquetaRango" style="font-style: normal;"></em>
                 </p>
                 <p>
                     <label for="telefono">Indica teléfono</label>
