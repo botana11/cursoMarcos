@@ -16,12 +16,12 @@
 		text-align: center;  
 		overflow: auto;
 	      }
-	      body > header > h1 {
+	      /*body > header > h1 {
 		float:left;
 		width: 75%;
 		font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;    
 		text-align: center;
-	      }
+	      }*/
 	      body > header > picture {
 		float:left;
 		width: 20%;
@@ -137,7 +137,8 @@
 	  */
 
 nav a:hover{
-	background-color: yellow;
+	border-style: solid;
+	border-color: yellow;
 }
 
 body > header{
@@ -150,4 +151,14 @@ section article p{
 	margin-bottom: 2em;
 	background-color: #e9ecef;
 	border-radius: 1em;
+}
+
+body > header > h1 {
+	float:left;
+	width: 75%;
+	font: 32pt "Comic Sans MS", cursive, sans-serif;
+	color: #ff7f50;
+	background-color: #fdd1ab;
+	text-shadow: 2px 2px 5px black;
+	text-align: center;
 }
