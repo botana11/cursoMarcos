@@ -153,7 +153,7 @@ section article p{
 	border-radius: 1em;
 }
 
-body > header > h1 {
+body > header > h1, body > header > h1 {
 	float:left;
 	width: 75%;
 	font: 32pt "Comic Sans MS", cursive, sans-serif;
